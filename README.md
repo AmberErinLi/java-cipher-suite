@@ -56,12 +56,12 @@ The project is organized as follows:
 ```text
 java-cipher-suite/
 ├── src/
-│   ├── Cipher.java         # Abstract base class defining encrypt/decrypt methods
-│   ├── Substitution.java   # Implements substitution cipher
-│   ├── CaesarShift.java    # Implements Caesar shift cipher
 │   ├── CaesarKey.java      # Implements Caesar key cipher
-│   ├── MultiCipher.java    # Combines multiple ciphers
+│   ├── CaesarShift.java    # Implements Caesar shift cipher
+│   ├── Cipher.java         # Abstract base class defining encrypt/decrypt methods
 │   ├── Client.java         # Contains main() method to run and test ciphers
+│   ├── MultiCipher.java    # Combines multiple ciphers
+│   ├── Substitution.java   # Implements substitution cipher
 │   └── Testing.java        # JUnit tests for all cipher classes and methods
 ├── README.md               # Project overview and instructions
 └── .gitignore              # Ignore compiled files and IDE artifacts
